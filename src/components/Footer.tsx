@@ -33,8 +33,8 @@ const Footer = () => {
             </div>
 
             <div className='max-w-7xl mx-auto px-6 pb-16 flex items-center justify-between'>
-                <img src={logo} alt="" />
-                <div className='flex items-center gap-3'>
+                <img data-aos="fade-up" data-aos-duration="1200" src={logo} alt="logo"  />
+                <div data-aos="fade-up" data-aos-duration="1000" className='flex items-center gap-3'>
                     {socialLinks.map(({ icon: Icon, path }, i) => (
                         <a key={i} href={path}>
                             <Icon size={30} className='bg-white/10 p-2 rounded-full text-white/80' />
@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
             <hr className='border-slate-500' />
             <div className='p-5 flex items-center justify-center'>
-                <img src={iconLogo} alt="" />
+                <img src={iconLogo} alt=""  />
             </div>
 
         </div>

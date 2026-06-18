@@ -24,7 +24,7 @@ const Question_Answer = () => {
 
                 {
                     questions.map((item, index) => (
-                        <div key={index}>
+                        <div data-aos="fade-up" data-aos-duration="1400" key={index}>
                             <h4 className="font-medium text-lg pb-2">{item.question}</h4>
                             <p className="text-[#6D6E7A] text-[15px] tracking-wider leading-8">{item.answer}</p>
                         </div>
@@ -33,7 +33,7 @@ const Question_Answer = () => {
 
             </div>
 
-            <button className="border rounded-2xl p-3 border-cyan-500 tracking-wider font-semibold text-blue-950 mt-8 hover:bg-cyan-500 hover:text-white duration-300 transition-all cursor-pointer">More Questions</button>
+            <button data-aos="fade-up" data-aos-duration="1800" className="border rounded-2xl p-3 border-cyan-500 tracking-wider font-semibold text-blue-950 mt-8 hover:bg-cyan-500 hover:text-white duration-300 transition-all cursor-pointer">More Questions</button>
         </div>
     );
 };

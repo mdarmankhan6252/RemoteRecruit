@@ -10,7 +10,7 @@ const Banner = () => {
 
             <div className="px-6 xl:px-16 2xl:px-32">
                 {/* Navigation bar */}
-                <nav className='py-6 flex items-center justify-between'>
+                <nav data-aos="fade-down" data-aos-duration="1000" className='py-6 flex items-center justify-between'>
                     <img src={logo} alt="RemoteRecruit logo" className='w-22' />
                     <div className='space-x-6'>
                         <button className='text-white hover:underline'>Sign In</button>
@@ -22,10 +22,10 @@ const Banner = () => {
 
                 {/* Main content */}
                 <div className='text-center pt-24 lg:pt-32 pb-48 max-w-3xl mx-auto relative z-10'>
-                    <h1 className='text-4xl lg:text-5xl font-semibold text-white pb-6 leading-12'>
+                    <h1 data-aos="fade-up" data-aos-duration="1300" className='text-4xl lg:text-5xl font-semibold text-white pb-6 leading-12'>
                         RemoteRecruit's Difference
                     </h1>
-                    <p className='text-white/80 tracking-wide leading-8 text-[15px]'>
+                    <p data-aos="fade-up" data-aos-duration="1700" className='text-white/80 tracking-wide leading-8 text-[15px]'>
                         RemoteRecruit is connecting the world with an easy-to-use platform that lets
                         full-time, part-time, and freelance workers showcase their talents to businesses
                         that need them. With no paywalls, no fees, and no barriers, there's nothing but

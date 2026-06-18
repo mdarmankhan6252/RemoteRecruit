@@ -8,9 +8,7 @@ export interface IPosition{
 
 const WhiteCircle = ({top, left, bottom, right}: IPosition) => {
     return (
-        <div>
-            <div className={`w-90 h-90 bg-white/4 rounded-full absolute ${top} ${left} ${bottom} ${right} `}/>
-        </div>
+        <div data-aos="zoom-in" data-aos-duration="1700" className={`w-90 h-90 bg-white/4 rounded-full absolute ${top} ${left} ${bottom} ${right} `}/>
     );
 };
 

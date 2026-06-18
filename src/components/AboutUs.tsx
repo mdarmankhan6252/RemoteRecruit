@@ -8,14 +8,14 @@ const AboutUs = () => {
             <div className="space-y-6">
                 <TitleButton title='Global Reach'/>
 
-                <h2 className="text-3xl md:text-4xl tracking-wide">The First Fully Global Job Board, Anywhere, Ever</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1400" className="text-3xl md:text-4xl tracking-wide">The First Fully Global Job Board, Anywhere, Ever</h2>
 
-                <p className="text-[#11142DA4] text-sm tracking-wide leading-8">RemoteRecruit connects candidates with opportunities around the world. With today’s remote-first workforce, you need to be able to find the best jobs and the best people for them, wherever they may be.</p>
+                <p data-aos="fade-up" data-aos-duration="1800" className="text-[#11142DA4] text-sm tracking-wide leading-8">RemoteRecruit connects candidates with opportunities around the world. With today’s remote-first workforce, you need to be able to find the best jobs and the best people for them, wherever they may be.</p>
 
             </div>
 
             <div>
-                <img src={aboutImg} alt="" />
+                <img data-aos="fade-down" data-aos-duration="1500" src={aboutImg} alt="" />
 
             </div>
 

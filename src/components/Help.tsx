@@ -7,11 +7,11 @@ const Help = () => {
     return (
         <div>
             <div className="px-6">
-                <h2 className="text-3xl font-semibold text-center">Help Is One Click Away</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1400" className="text-3xl font-semibold text-center">Help Is One Click Away</h2>
 
-                <div className="max-w-4xl mx-auto  flex items-center gap-6 pt-10">
+                <div className="max-w-4xl mx-auto  flex items-center gap-6 pt-10 flex-col md:flex-row">
                     {/* free card */}
-                    <div className="shadow border border-gray-200 p-6 rounded-2xl bg-white">
+                    <div data-aos="fade-right" data-aos-duration="1600" className="shadow border border-gray-200 p-6 rounded-2xl bg-white w-full">
                         <div className="flex gap-4">
                             <div className="flex items-center justify-center bg-[#ECF2FF] flex-col p-6 rounded-2xl">
                                 <h3 className="text-[#52B4DA] text-2xl">Free</h3>
@@ -40,7 +40,7 @@ const Help = () => {
                     </div>
 
                     {/* premium card */}
-                    <div className="shadow border border-gray-200 p-6 rounded-2xl bg-white">
+                    <div data-aos="fade-left" data-aos-duration="1600" className="shadow border border-gray-200 p-6 rounded-2xl bg-white w-full">
                         <div className="flex gap-4">
                             <div className="bg-[#ECF2FF] flex-col  rounded-2xl">
                                 <button className="flex items-center gap-2 bg-[#C2EEFF] py-1 px-2 rounded-full -mt-2">
