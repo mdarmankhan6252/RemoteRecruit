@@ -1,5 +1,6 @@
 import AboutUs from "./components/AboutUs";
 import Banner from "./components/Banner";
+import CustomProfile from "./components/CustomProfile";
 import PaymentSystem from "./components/PaymentSystem";
 
 
@@ -9,6 +10,7 @@ const App = () => {
       <Banner />
       <AboutUs />
       <PaymentSystem />
+      <CustomProfile />
     </div>
   );
 };

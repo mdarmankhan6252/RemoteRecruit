@@ -3,7 +3,7 @@ import paymentImage from '../assets/payment-img.png'
 
 const PaymentSystem = () => {
     return (
-        <div className="px-6 max-w-7xl mx-auto flex items-center justify-between flex-col sm:flex-row gap-10">
+        <div className="px-6 max-w-7xl mx-auto flex items-center justify-between flex-col-reverse sm:flex-row gap-10">
 
             <div>
                 <img src={paymentImage} alt="" />
@@ -11,11 +11,11 @@ const PaymentSystem = () => {
             </div>
 
             <div className="space-y-6">
-                <TitleButton title='Global Reach'/>
+                <TitleButton title='Actually Fee Free'/>
 
-                <h2 className="text-3xl md:text-4xl tracking-wide">The First Fully Global Job Board, Anywhere, Ever</h2>
+                <h2 className="text-3xl md:text-4xl tracking-wide">Fee-Free Forever</h2>
 
-                <p className="text-[#11142DA4] text-sm tracking-wide leading-8">RemoteRecruit connects candidates with opportunities around the world. With today’s remote-first workforce, you need to be able to find the best jobs and the best people for them, wherever they may be.</p>
+                <p className="text-[#11142DA4] text-sm tracking-wide leading-8">We don’t charge you fees and we don’t put up paywalls. We’re the bridge that connects job opportunities with the best candidates, with no middleman involved.</p>
 
             </div>
 

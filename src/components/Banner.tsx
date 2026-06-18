@@ -22,7 +22,7 @@ const Banner = () => {
 
                 {/* Main content */}
                 <div className='text-center pt-24 lg:pt-32 pb-48 max-w-3xl mx-auto relative z-10'>
-                    <h1 className='text-4xl lg:text-5xl font-semibold text-white pb-6'>
+                    <h1 className='text-4xl lg:text-5xl font-semibold text-white pb-6 leading-12'>
                         RemoteRecruit's Difference
                     </h1>
                     <p className='text-white/80 tracking-wide leading-8 text-[15px]'>
