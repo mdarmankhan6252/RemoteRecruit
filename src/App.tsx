@@ -13,11 +13,15 @@ import 'aos/dist/aos.css'
 
 const App = () => {
   useEffect(() => {
-    AOS.init({
-      duration: 800, 
-      once: true, 
-    });
-  }, []);
+  AOS.init({
+    duration: 800,
+    once: true,
+  });
+
+  setTimeout(() => {
+    AOS.refresh();
+  }, 500);
+}, []);
   return (
     <div className="overflow-x-hidden">
       <Banner />
