@@ -11,7 +11,7 @@ const Help = () => {
 
                 <div className="max-w-4xl mx-auto  flex items-center gap-6 pt-10">
                     {/* free card */}
-                    <div className="shadow border border-gray-200 p-6 rounded-2xl">
+                    <div className="shadow border border-gray-200 p-6 rounded-2xl bg-white">
                         <div className="flex gap-4">
                             <div className="flex items-center justify-center bg-[#ECF2FF] flex-col p-6 rounded-2xl">
                                 <h3 className="text-[#52B4DA] text-2xl">Free</h3>
@@ -40,7 +40,7 @@ const Help = () => {
                     </div>
 
                     {/* premium card */}
-                    <div className="shadow border border-gray-200 p-6 rounded-2xl">
+                    <div className="shadow border border-gray-200 p-6 rounded-2xl bg-white">
                         <div className="flex gap-4">
                             <div className="bg-[#ECF2FF] flex-col  rounded-2xl">
                                 <button className="flex items-center gap-2 bg-[#C2EEFF] py-1 px-2 rounded-full -mt-2">

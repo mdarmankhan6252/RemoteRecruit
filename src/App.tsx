@@ -1,6 +1,7 @@
 import AboutUs from "./components/AboutUs";
 import Banner from "./components/Banner";
 import CustomProfile from "./components/CustomProfile";
+import Footer from "./components/Footer";
 import Help from "./components/Help";
 import PaymentSystem from "./components/PaymentSystem";
 import Question_Answer from "./components/Question_Answer";
@@ -17,6 +18,7 @@ const App = () => {
       <SubBanner />
       <Question_Answer />
       <Help />
+      <Footer />
     </div>
   );
 };
